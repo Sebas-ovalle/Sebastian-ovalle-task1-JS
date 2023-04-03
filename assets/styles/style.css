@@ -3,11 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+main {
+    background-image: linear-gradient(to right top, #6d008b, #3f3598, #004797, #00528a, #005879, #00637b, #006d78, #007672, #008a71, #009c63, #00ad46, #52bb00);
+}
 header {
     display: flex;
     justify-content: space-between;
-    background-color: purple;
+    background-image: linear-gradient(to right top, #242523, #333f35, #3c5c4e, #3b7a71, #2f999d, #2aadb3, #1fc2ca, #00d7e2, #00e6d4, #00f2af, #00fb76, #6fff00);
 }
 .buttons-nav {
     color: black;
@@ -23,7 +25,7 @@ header {
     margin: 0.2rem;
     padding: 0.1rem;
     text-decoration: none;
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
     border-radius: 1rem;
     margin: 0.1rem;
 }
@@ -52,6 +54,10 @@ h1 {
     max-width: 100vw;
     min-height: 5rem ;
     margin-top: 1rem;
+}
+.cartas-1 {
+    display: flex;
+    flex-wrap: wrap;
 }
 .form-check-inline {
     font-size: 0.8rem;
@@ -88,7 +94,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    background-color: purple;
+    background-image: linear-gradient(to right top, #6d008b, #3f3598, #004797, #00528a, #005879, #00637b, #006d78, #007672, #008a71, #009c63, #00ad46, #52bb00);
 }
 .icons-footer a {
     margin: 1rem;
@@ -215,6 +221,7 @@ h2 {
     .navbar {
         display: flex;
         justify-content: center;
+        flex-direction: column;
 
     }
     .navbar a{
@@ -247,15 +254,6 @@ h2 {
     .cartas-1 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .cartas-2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
     }
     .searching {
         display: flex;
@@ -332,16 +330,6 @@ h2 {
 }
 @media (min-width: 768px) and (max-width: 1023px){
     
-    .cartas-1 {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .cartas-2 {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
 
     /* contact */
 
